@@ -1,0 +1,968 @@
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دانلودر یوتیوب | دانلود آسان و سریع</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config={darkMode:'class',theme:{extend:{fontFamily:{'vazirmatn':['Vazirmatn','sans-serif']},colors:{primary:{50:'#eef8ff',100:'#d9efff',200:'#bce4ff',300:'#8dd4ff',400:'#57bbff',500:'#339cff',600:'#1b7fff',700:'#1467ff',800:'#1753d1',900:'#1a489f'},secondary:{50:'#fdf2ff',100:'#f7e2ff',200:'#f1c5ff',300:'#e99aff',400:'#dd61ff',500:'#cf34ff',600:'#b517f1',700:'#9a13c7',800:'#7e15a1',900:'#691684'},accent:{50:'#fffce8',100:'#fff7c2',200:'#ffec86',300:'#ffdb41',400:'#ffc60d',500:'#ffa600',600:'#ff7e00',700:'#cc5602',800:'#a1410b',900:'#82370f'},success:{50:'#ecfdf6',100:'#d2f9e8',200:'#a8f2d5',300:'#6ce6be',400:'#31d4a3',500:'#0db885',600:'#04956c',700:'#047658',800:'#065d47',900:'#064c3c'},danger:{50:'#fef2f3',100:'#fde6e7',200:'#fad0d3',300:'#f7acb0',400:'#f27a82',500:'#ea4e59',600:'#d42f3b',700:'#b2222c',800:'#932028',900:'#7a1f25'},dark:{50:'#f7f7f8',100:'#eeeef0',200:'#d9d9de',300:'#b7b7c0',400:'#8f8f9c',500:'#6e6e7f',600:'#55556a',700:'#47475a',800:'#272736',900:'#17171f',950:'#0c0c12'}},boxShadow:{'neon':'0 0 20px rgba(51, 156, 255, 0.5), 0 0 40px rgba(51, 156, 255, 0.2)','neon-purple':'0 0 20px rgba(207, 52, 255, 0.5), 0 0 40px rgba(207, 52, 255, 0.2)','neon-orange':'0 0 20px rgba(255, 166, 0, 0.5), 0 0 40px rgba(255, 166, 0, 0.2)','neon-green':'0 0 20px rgba(13, 184, 133, 0.5), 0 0 40px rgba(13, 184, 133, 0.2)','neon-red':'0 0 20px rgba(234, 78, 89, 0.5), 0 0 40px rgba(234, 78, 89, 0.2)','glass':'0 8px 32px 0 rgba(31, 38, 135, 0.2)','card':'0 10px 30px -5px rgba(0, 0, 0, 0.1)','card-dark':'0 10px 30px -5px rgba(0, 0, 0, 0.3)','inner':'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)','intense':'0 20px 50px -12px rgba(0, 0, 0, 0.25)'},animation:{'float':'float 3s ease-in-out infinite','pulse-slow':'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite','spin-slow':'spin 8s linear infinite','vibrate':'vibrate 0.3s linear infinite','scale':'scale 1s ease-in-out infinite','gradient':'gradient 8s ease infinite','slideUp':'slideUp 0.5s ease-out forwards','slideDown':'slideDown 0.5s ease-out forwards','fadeIn':'fadeIn 0.5s ease-out forwards','fadeOut':'fadeOut 0.5s ease-out forwards','wave':'wave 1.5s infinite','shimmer':'shimmer 2s infinite','blob':'blob 7s infinite','bounce-in':'bounce-in 0.6s ease-out','wiggle':'wiggle 0.5s ease-in-out','heartbeat':'heartbeat 1.5s infinite','zoom':'zoom 0.3s ease-out'},keyframes:{float:{'0%, 100%':{transform:'translateY(0)'},'50%':{transform:'translateY(-10px)'}},vibrate:{'0%, 100%':{transform:'translateX(0)'},'25%':{transform:'translateX(2px)'},'75%':{transform:'translateX(-2px)'}},scale:{'0%, 100%':{transform:'scale(1)'},'50%':{transform:'scale(1.05)'}},gradient:{'0%':{backgroundPosition:'0% 50%'},'50%':{backgroundPosition:'100% 50%'},'100%':{backgroundPosition:'0% 50%'}},slideUp:{'0%':{transform:'translateY(20px)',opacity:'0'},'100%':{transform:'translateY(0)',opacity:'1'}},slideDown:{'0%':{transform:'translateY(-20px)',opacity:'0'},'100%':{transform:'translateY(0)',opacity:'1'}},fadeIn:{'0%':{opacity:'0'},'100%':{opacity:'1'}},fadeOut:{'0%':{opacity:'1'},'100%':{opacity:'0'}},wave:{'0%':{transform:'rotate(0deg)'},'10%':{transform:'rotate(14deg)'},'20%':{transform:'rotate(-8deg)'},'30%':{transform:'rotate(14deg)'},'40%':{transform:'rotate(-4deg)'},'50%':{transform:'rotate(10deg)'},'60%':{transform:'rotate(0deg)'},'100%':{transform:'rotate(0deg)'}},shimmer:{'0%':{backgroundPosition:'-200% 0'},'100%':{backgroundPosition:'200% 0'}},blob:{'0%':{borderRadius:'60% 40% 30% 70% / 60% 30% 70% 40%'},'50%':{borderRadius:'30% 60% 70% 40% / 50% 60% 30% 60%'},'100%':{borderRadius:'60% 40% 30% 70% / 60% 30% 70% 40%'}},'bounce-in':{'0%':{transform:'scale(0.3)',opacity:'0'},'50%':{transform:'scale(1.05)'},'70%':{transform:'scale(0.9)'},'100%':{transform:'scale(1)',opacity:'1'}},wiggle:{'0%, 7%':{transform:'rotateZ(0)'},'15%':{transform:'rotateZ(-15deg)'},'20%':{transform:'rotateZ(10deg)'},'25%':{transform:'rotateZ(-10deg)'},'30%':{transform:'rotateZ(6deg)'},'35%':{transform:'rotateZ(-4deg)'},'40%, 100%':{transform:'rotateZ(0)'}},heartbeat:{'0%':{transform:'scale(1)'},'14%':{transform:'scale(1.3)'},'28%':{transform:'scale(1)'},'42%':{transform:'scale(1.3)'},'70%':{transform:'scale(1)'}},zoom:{'0%':{transform:'scale(1)'},'50%':{transform:'scale(1.1)'},'100%':{transform:'scale(1)'}}}}}}
+    </script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <style>
+        *{font-family:'Vazirmatn',sans-serif}::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-track{background:#f1f1f1;border-radius:4px}.dark ::-webkit-scrollbar-track{background:#27273630}::-webkit-scrollbar-thumb{background:linear-gradient(135deg,#339cff 0%,#cf34ff 100%);border-radius:4px}.dark ::-webkit-scrollbar-thumb{background:linear-gradient(135deg,#1467ff 0%,#b517f1 100%)}::-webkit-scrollbar-thumb:hover{background:linear-gradient(135deg,#1b7fff 0%,#b517f1 100%)}.glassmorphism{background:rgba(255,255,255,0.2);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,0.1);box-shadow:0 8px 32px rgba(0,0,0,0.05)}.dark .glassmorphism{background:rgba(23,23,31,0.7);border:1px solid rgba(255,255,255,0.05);box-shadow:0 8px 32px rgba(0,0,0,0.2)}.gradient-primary{background:linear-gradient(135deg,#339cff 0%,#1467ff 100%)}.gradient-secondary{background:linear-gradient(135deg,#cf34ff 0%,#9a13c7 100%)}.gradient-accent{background:linear-gradient(135deg,#ffa600 0%,#ff7e00 100%)}.gradient-success{background:linear-gradient(135deg,#0db885 0%,#047658 100%)}.gradient-danger{background:linear-gradient(135deg,#ea4e59 0%,#b2222c 100%)}.gradient-cool{background:linear-gradient(135deg,#339cff 0%,#cf34ff 100%)}.gradient-warm{background:linear-gradient(135deg,#ffa600 0%,#ea4e59 100%)}.gradient-text{background-clip:text;-webkit-background-clip:text;color:transparent}.gradient-animate{background:linear-gradient(270deg,#339cff,#cf34ff,#ffa600);background-size:600% 600%;animation:gradient 8s ease infinite}@keyframes gradient{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}.shimmer{background:linear-gradient(90deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0.2) 50%,rgba(255,255,255,0) 100%);background-size:200% 100%;animation:shimmer 2s infinite}.dark .shimmer{background:linear-gradient(90deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0) 100%);background-size:200% 100%;animation:shimmer 2s infinite}@keyframes rainbow{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}.rainbow-text{background:linear-gradient(to right,#ff0000,#ffa500,#ffff00,#008000,#0000ff,#4b0082,#ee82ee);background-size:600% 100%;animation:rainbow 6s linear infinite;background-clip:text;-webkit-background-clip:text;color:transparent;display:inline-block}.btn-modern{position:relative;overflow:hidden;transition:all 0.4s cubic-bezier(0.175,0.885,0.32,1.275);z-index:1}.btn-modern::before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,rgba(255,255,255,0.2) 0%,rgba(255,255,255,0) 100%);z-index:-1;transform:translateY(-100%);transition:transform 0.4s cubic-bezier(0.175,0.885,0.32,1.275)}.btn-modern:hover{transform:translateY(-3px);box-shadow:0 10px 20px rgba(0,0,0,0.1)}.btn-modern:hover::before{transform:translateY(0)}.btn-modern:active{transform:translateY(-1px)}.btn-liquid{position:relative;overflow:hidden;border-radius:10px;transition:all 0.3s ease}.btn-liquid::after{content:'';position:absolute;top:50%;left:50%;width:300px;height:300px;background:rgba(255,255,255,0.1);border-radius:40%;transform:translate(-50%,-50%) scale(0);animation:ripple 10s infinite linear;opacity:0;pointer-events:none;transition:opacity 0.3s ease}.btn-liquid:hover::after{opacity:1}@keyframes ripple{0%{transform:translate(-50%,-50%) scale(0) rotate(0deg)}100%{transform:translate(-50%,-50%) scale(2.5) rotate(360deg)}}.btn-magical{position:relative;overflow:hidden;background:linear-gradient(45deg,#ff6b6b,#4ecdc4,#45b7d1,#f9ca24,#f0932b,#eb4d4b,#6c5ce7);background-size:300% 300%;animation:gradient 3s ease infinite;transform:translateZ(0)}.btn-magical::before{content:'';position:absolute;top:2px;left:2px;right:2px;bottom:2px;background:inherit;border-radius:inherit;filter:blur(8px);opacity:0.8;z-index:-1}.btn-magical:hover{transform:translateY(-2px) scale(1.05);box-shadow:0 10px 25px rgba(0,0,0,0.2)}.btn-magical:active{transform:translateY(0) scale(0.98)}.notification{position:fixed;top:20px;right:20px;padding:20px 24px;border-radius:20px;color:white;font-weight:600;z-index:1000;box-shadow:0 10px 40px rgba(0,0,0,0.25);transform:translateX(150%);transition:all 0.5s cubic-bezier(0.175,0.885,0.32,1.275);display:flex;align-items:center;backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.2);min-width:320px}.notification.show{transform:translateX(0);animation:bounce-in 0.6s ease-out}.notification.success{background:linear-gradient(135deg,rgba(13,184,133,0.95) 0%,rgba(4,118,88,0.95) 100%);box-shadow:0 10px 40px rgba(13,184,133,0.4)}.notification.error{background:linear-gradient(135deg,rgba(234,78,89,0.95) 0%,rgba(178,34,44,0.95) 100%);box-shadow:0 10px 40px rgba(234,78,89,0.4);animation:wiggle 0.5s ease-in-out}.notification.warning{background:linear-gradient(135deg,rgba(255,166,0,0.95) 0%,rgba(255,126,0,0.95) 100%);box-shadow:0 10px 40px rgba(255,166,0,0.4)}.notification.info{background:linear-gradient(135deg,rgba(51,156,255,0.95) 0%,rgba(20,103,255,0.95) 100%);box-shadow:0 10px 40px rgba(51,156,255,0.4)}.notification-icon{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-right:12px;animation:heartbeat 1.5s infinite}.notification-content{flex-grow:1}.notification-title{font-size:16px;font-weight:700;margin-bottom:4px}.notification-text{font-size:14px;opacity:0.9;line-height:1.4}.notification-close{width:24px;height:24px;border-radius:50%;background:rgba(255,255,255,0.2);border:none;color:white;cursor:pointer;margin-right:12px;display:flex;align-items:center;justify-content:center;transition:all 0.3s ease}.notification-close:hover{background:rgba(255,255,255,0.3);transform:scale(1.1)}.progress-bar{height:12px;background:rgba(226,232,240,0.3);border-radius:100px;overflow:hidden;position:relative;box-shadow:inset 0 2px 4px rgba(0,0,0,0.1)}.dark .progress-bar{background:rgba(39,39,54,0.3)}.progress-value{height:100%;border-radius:100px;background:linear-gradient(to right,#339cff,#cf34ff);position:relative;overflow:hidden;transition:width 0.4s ease;box-shadow:0 2px 8px rgba(51,156,255,0.3)}.progress-value::after{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(90deg,rgba(255,255,255,0) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0) 100%);background-size:200% 100%;animation:shimmer 2s infinite}.accordion-content{max-height:0;overflow:hidden;transition:max-height 0.5s cubic-bezier(0,1,0,1)}.accordion-active .accordion-content{max-height:1000px;transition:max-height 0.5s cubic-bezier(0.175,0.885,0.32,1.275)}.accordion-icon{transition:transform 0.4s cubic-bezier(0.175,0.885,0.32,1.275)}.accordion-active .accordion-icon{transform:rotate(180deg)}.input-glass{background:rgba(255,255,255,0.1);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.1);box-shadow:0 4px 12px rgba(0,0,0,0.05);transition:all 0.3s ease}.dark .input-glass{background:rgba(23,23,31,0.4);border:1px solid rgba(255,255,255,0.05)}.input-glass:focus{background:rgba(255,255,255,0.15);box-shadow:0 4px 16px rgba(0,0,0,0.1)}.dark .input-glass:focus{background:rgba(23,23,31,0.5)}.glow{position:relative}.glow::after{content:"";position:absolute;top:-5px;left:-5px;right:-5px;bottom:-5px;z-index:-1;background:inherit;filter:blur(15px);opacity:0.6;border-radius:inherit}.glow:hover::after{opacity:0.8;filter:blur(20px)}.float{animation:float 3s ease-in-out infinite}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}.blob{animation:blob 7s infinite}@keyframes blob{0%,100%{border-radius:60% 40% 30% 70% / 60% 30% 70% 40%}25%{border-radius:30% 60% 70% 40% / 50% 60% 30% 60%}50%{border-radius:40% 60% 50% 50% / 40% 40% 60% 60%}75%{border-radius:50% 50% 60% 40% / 30% 60% 40% 70%}}.btn-pulse{position:relative}.btn-pulse::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;border-radius:inherit;box-shadow:0 0 0 0 rgba(51,156,255,0.4);animation:pulse 2s infinite}@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(51,156,255,0.4)}70%{box-shadow:0 0 0 15px rgba(51,156,255,0)}100%{box-shadow:0 0 0 0 rgba(51,156,255,0)}}.neon-border{position:relative;overflow:hidden;z-index:1}.neon-border::before{content:'';position:absolute;top:-2px;left:-2px;right:-2px;bottom:-2px;background:linear-gradient(45deg,#339cff,#cf34ff,#ffa600,#0db885,#339cff);background-size:500% 500%;animation:gradient 6s linear infinite;z-index:-2;border-radius:inherit}.neon-border::after{content:'';position:absolute;top:2px;left:2px;right:2px;bottom:2px;background:inherit;border-radius:inherit;z-index:-1}.tilt{transform-style:preserve-3d;transform:perspective(1000px)}.tilt-inner{transform:translateZ(30px)}.loading-dots{display:inline-flex;align-items:center}.loading-dots span{width:8px;height:8px;margin:0 3px;background-color:currentColor;border-radius:50%;display:inline-block;animation:dots-bounce 1.4s infinite ease-in-out both}.loading-dots span:nth-child(1){animation-delay:-0.32s}.loading-dots span:nth-child(2){animation-delay:-0.16s}@keyframes dots-bounce{0%,80%,100%{transform:scale(0)}40%{transform:scale(1)}}.card-hover{transition:all 0.3s ease;transform:translateZ(0)}.card-hover:hover{transform:translateY(-10px) scale(1.02);box-shadow:0 20px 40px rgba(0,0,0,0.1)}.dark .card-hover:hover{box-shadow:0 20px 40px rgba(0,0,0,0.3)}.btn-3d{transform-style:preserve-3d;perspective:800px;position:relative}.btn-3d span{display:inline-block;transition:all 0.3s ease}.btn-3d:hover span{transform:rotateX(360deg)}.format-btn{position:relative;overflow:hidden;transition:all 0.3s ease}.format-btn::before{content:'';position:absolute;top:0;right:0;width:4px;height:100%;background:rgba(255,255,255,0.5);transform:translateX(4px);transition:transform 0.3s ease}.format-btn:hover::before{transform:translateX(0)}.format-btn:hover{transform:translateX(-4px)}.format-card{backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,0.1);transition:all 0.4s ease;position:relative;overflow:hidden}.format-card::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.1),transparent);transition:left 0.5s ease}.format-card:hover::before{left:100%}.format-card:hover{transform:translateY(-8px) scale(1.02);box-shadow:0 15px 35px rgba(0,0,0,0.15)}.dark .format-card:hover{box-shadow:0 15px 35px rgba(0,0,0,0.4)}.format-card.selected{border:2px solid #339cff;transform:scale(1.05);box-shadow:0 0 0 4px rgba(51,156,255,0.2)}.download-btn{position:relative;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);border:none;border-radius:12px;color:white;font-weight:bold;padding:12px 24px;cursor:pointer;transition:all 0.3s cubic-bezier(0.175,0.885,0.32,1.275);overflow:hidden}.download-btn::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,0.2),transparent);transition:left 0.5s ease}.download-btn:hover::before{left:100%}.download-btn:hover{transform:translateY(-2px);box-shadow:0 8px 25px rgba(102,126,234,0.4)}.download-btn:active{transform:translateY(0)}.download-btn.magical{background:linear-gradient(135deg,#ff6b6b,#4ecdc4,#45b7d1,#f9ca24);background-size:300% 300%;animation:gradient 3s ease infinite}.download-btn.magical:hover{animation-duration:0.5s}.equalizer{display:flex;align-items:flex-end;justify-content:center;height:20px}.equalizer-bar{width:4px;background:currentColor;margin:0 2px;border-radius:2px;animation:equalizer 1s ease-in-out infinite}.equalizer-bar:nth-child(1){animation-delay:0.1s;height:10px}.equalizer-bar:nth-child(2){animation-delay:0.2s;height:16px}.equalizer-bar:nth-child(3){animation-delay:0.3s;height:12px}.equalizer-bar:nth-child(4){animation-delay:0.4s;height:18px}.equalizer-bar:nth-child(5){animation-delay:0.5s;height:10px}@keyframes equalizer{0%,100%{transform:scaleY(0.5)}50%{transform:scaleY(1)}}.format-tab{position:relative;transition:all 0.3s ease}.format-tab::after{content:'';position:absolute;left:0;right:0;bottom:0;height:3px;background:transparent;transition:all 0.3s ease}.format-tab.active::after{background:linear-gradient(to right,#339cff,#cf34ff)}.format-tab.active{color:#339cff;font-weight:bold}.dark .format-tab.active{color:#57bbff}.format-panel{display:none;opacity:0;transform:translateY(10px);transition:all 0.3s ease}.format-panel.active{display:block;opacity:1;transform:translateY(0)}.error-shake{animation:shake 0.5s ease-in-out}@keyframes shake{0%,100%{transform:translateX(0)}10%,30%,50%,70%,90%{transform:translateX(-8px)}20%,40%,60%,80%{transform:translateX(8px)}}
+    </style>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-blue-50 dark:from-dark-950 dark:to-dark-900 text-gray-800 dark:text-gray-200 min-h-screen transition-all duration-300">
+    <div class="fixed inset-0 -z-10 overflow-hidden">
+        <div class="absolute top-0 left-0 w-96 h-96 bg-primary-400/10 dark:bg-primary-600/5 rounded-full blur-3xl animate-blob"></div>
+        <div class="absolute top-1/3 right-1/4 w-96 h-96 bg-secondary-400/10 dark:bg-secondary-600/5 rounded-full blur-3xl animate-blob animation-delay-2000"></div>
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-accent-400/10 dark:bg-accent-600/5 rounded-full blur-3xl animate-blob animation-delay-4000"></div>
+    </div>
+    <div id="notificationContainer" class="notification">
+        <div class="notification-icon">
+            <i class="ph ph-info text-xl"></i>
+        </div>
+        <div class="notification-content">
+            <div class="notification-title" id="notificationTitle">اطلاع‌رسانی</div>
+            <div class="notification-text" id="notificationText"></div>
+        </div>
+        <button class="notification-close" onclick="hideNotification()">
+            <i class="ph ph-x text-sm"></i>
+        </button>
+    </div>
+    <div class="container mx-auto px-4 py-6 sm:px-6 lg:px-8 relative z-10">
+        <header class="flex flex-col md:flex-row items-center justify-between mb-10 animate-fadeIn">
+            <div class="flex items-center mb-4 md:mb-0">
+                <div class="w-14 h-14 gradient-cool rounded-2xl flex items-center justify-center text-white text-2xl shadow-lg glow">
+                    <i class="ph ph-lightning text-3xl"></i>
+                </div>
+                <div class="mr-3">
+                    <h1 class="text-3xl font-bold gradient-text gradient-cool">
+                        دانلودر یوتیوب
+                    </h1>
+                    <p class="text-sm text-gray-600 dark:text-gray-400">دانلود حرفه‌ای ویدیوهای یوتیوب</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-3 space-x-reverse">
+                <button id="themeToggle" class="w-12 h-12 flex items-center justify-center bg-white dark:bg-dark-800 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 neon-border">
+                    <i class="ph ph-sun text-2xl text-amber-500 dark:hidden"></i>
+                    <i class="ph ph-moon-stars text-2xl text-indigo-400 hidden dark:block"></i>
+                </button>
+                <button class="w-12 h-12 flex items-center justify-center bg-white dark:bg-dark-800 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                    <i class="ph ph-gear-six text-2xl text-purple-500 animate-spin-slow"></i>
+                </button>
+                <button class="w-12 h-12 flex items-center justify-center bg-white dark:bg-dark-800 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                    <i class="ph ph-user-circle text-2xl text-primary-500"></i>
+                </button>
+            </div>
+        </header>
+        <main>
+            <section class="mb-16 relative">
+                <div class="max-w-5xl mx-auto px-4 py-8 sm:py-16 text-center">
+                    <h2 class="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-6 gradient-text gradient-cool animate-fadeIn">
+                        سریع‌ترین دانلودر یوتیوب
+                    </h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto mb-10 animate-slideUp">
+                        دانلود انواع ویدیو و موسیقی از یوتیوب با بالاترین کیفیت و سرعت ممکن
+                    </p>
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto mb-10">
+                        <div class="bg-white dark:bg-dark-800 p-6 rounded-2xl shadow-lg card-hover animate-fadeIn animation-delay-100">
+                            <div class="w-16 h-16 gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
+                                <i class="ph ph-lightning text-white text-2xl"></i>
+                            </div>
+                            <h3 class="font-bold text-lg">سرعت بالا</h3>
+                        </div>
+                        <div class="bg-white dark:bg-dark-800 p-6 rounded-2xl shadow-lg card-hover animate-fadeIn animation-delay-200">
+                            <div class="w-16 h-16 gradient-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
+                                <i class="ph ph-shield text-white text-2xl"></i>
+                            </div>
+                            <h3 class="font-bold text-lg">امنیت کامل</h3>
+                        </div>
+                        <div class="bg-white dark:bg-dark-800 p-6 rounded-2xl shadow-lg card-hover animate-fadeIn animation-delay-300">
+                            <div class="w-16 h-16 gradient-accent rounded-full mx-auto mb-4 flex items-center justify-center">
+                                <i class="ph ph-video text-white text-2xl"></i>
+                            </div>
+                            <h3 class="font-bold text-lg">کیفیت 4K</h3>
+                        </div>
+                        <div class="bg-white dark:bg-dark-800 p-6 rounded-2xl shadow-lg card-hover animate-fadeIn animation-delay-400">
+                            <div class="w-16 h-16 gradient-success rounded-full mx-auto mb-4 flex items-center justify-center">
+                                <i class="ph ph-headphones text-white text-2xl"></i>
+                            </div>
+                            <h3 class="font-bold text-lg">استخراج MP3</h3>
+                        </div>
+                    </div>
+                    <div class="glassmorphism p-8 rounded-3xl shadow-2xl max-w-4xl mx-auto neon-border animate-fadeIn animation-delay-500">
+                        <h3 class="text-2xl font-bold mb-6 flex items-center justify-center">
+                            <i class="ph ph-youtube-logo text-red-500 text-3xl mr-2"></i>
+                            <span>دانلود از یوتیوب</span>
+                        </h3>
+                        <form id="downloadForm" class="mb-6">
+                            <div class="relative mb-6 rounded-2xl overflow-hidden shadow-lg">
+                                <div class="flex h-16">
+                                    <input type="text" id="videoUrl" placeholder="لینک ویدیوی یوتیوب را وارد کنید..." class="w-full px-5 py-4 rounded-r-2xl border-0 bg-white/80 dark:bg-dark-800/50 text-gray-900 dark:text-gray-100 focus:outline-none text-lg input-glass" dir="ltr">
+                                    <button type="button" id="pasteButton" class="bg-white/50 dark:bg-dark-800/30 px-4 text-gray-600 dark:text-gray-400 hover:bg-white/70 dark:hover:bg-dark-700/50 transition-all">
+                                        <i class="ph ph-clipboard-text text-xl"></i>
+                                    </button>
+                                    <button type="submit" id="downloadButton" class="btn-magical text-white font-bold text-lg py-4 px-8 rounded-l-2xl">
+                                        <i class="ph ph-download-simple mr-2"></i>
+                                        دانلود
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="text-center mb-6">
+                                <p class="text-gray-500 dark:text-gray-400">
+                                    فرمت‌های پشتیبانی شده: <span class="text-primary-500 font-bold">MP4</span> • <span class="text-secondary-500 font-bold">WebM</span> • <span class="text-accent-500 font-bold">MP3</span> • <span class="text-info-500 font-bold">M4A</span>
+                                </p>
+                            </div>
+                            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                                <div class="bg-white/50 dark:bg-dark-800/30 border border-primary-200 dark:border-primary-800/30 p-4 rounded-xl text-center hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-all cursor-pointer">
+                                    <i class="ph ph-video text-primary-500 text-2xl mb-1"></i>
+                                    <div class="text-sm font-medium">MP4 تا 4K</div>
+                                </div>
+                                <div class="bg-white/50 dark:bg-dark-800/30 border border-secondary-200 dark:border-secondary-800/30 p-4 rounded-xl text-center hover:bg-secondary-50 dark:hover:bg-secondary-900/20 transition-all cursor-pointer">
+                                    <i class="ph ph-music-notes text-secondary-500 text-2xl mb-1"></i>
+                                    <div class="text-sm font-medium">MP3 تا 320kbps</div>
+                                </div>
+                                <div class="bg-white/50 dark:bg-dark-800/30 border border-accent-200 dark:border-accent-800/30 p-4 rounded-xl text-center hover:bg-accent-50 dark:hover:bg-accent-900/20 transition-all cursor-pointer">
+                                    <i class="ph ph-closed-captioning text-accent-500 text-2xl mb-1"></i>
+                                    <div class="text-sm font-medium">دانلود زیرنویس</div>
+                                </div>
+                                <div class="bg-white/50 dark:bg-dark-800/30 border border-success-200 dark:border-success-800/30 p-4 rounded-xl text-center hover:bg-success-50 dark:hover:bg-success-900/20 transition-all cursor-pointer">
+                                    <i class="ph ph-lightning text-success-500 text-2xl mb-1"></i>
+                                    <div class="text-sm font-medium">دانلود سریع</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section id="videoInfo" class="hidden mb-16 animate-fadeIn">
+                <div class="glassmorphism rounded-3xl shadow-2xl p-8 max-w-4xl mx-auto overflow-hidden">
+                    <div class="flex flex-col md:flex-row gap-8">
+                        <div class="md:w-2/5">
+                            <div class="relative rounded-2xl overflow-hidden shadow-xl mb-6 group">
+                                <img id="videoThumbnail" src="https://i.imgur.com/JpkuIu9.png" alt="ویدیو" class="w-full h-auto transition-transform duration-700 group-hover:scale-110">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
+                                <div class="absolute inset-0 flex items-center justify-center">
+                                    <button id="previewVideo" class="w-16 h-16 bg-white/20 backdrop-blur-xl hover:bg-white/30 text-white rounded-full flex items-center justify-center transition-transform duration-300 hover:scale-110">
+                                        <i class="ph ph-play mr-1 text-xl"></i>
+                                    </button>
+                                </div>
+                                <div class="absolute bottom-3 right-3 bg-black/70 backdrop-blur-sm text-white px-3 py-1.5 text-sm rounded-full">
+                                    <span id="videoDuration">10:30</span>
+                                </div>
+                            </div>
+                            <div class="bg-white/20 dark:bg-dark-800/40 p-4 rounded-2xl backdrop-blur-md">
+                                <div class="flex items-center mb-3">
+                                    <div class="w-12 h-12 rounded-full overflow-hidden mr-3 border-2 border-primary-500/30">
+                                        <img id="channelAvatar" src="https://i.imgur.com/JpkuIu9.png" alt="Channel" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <h4 id="channelName" class="font-bold">نام کانال</h4>
+                                        <p id="subscribersCount" class="text-sm text-gray-600 dark:text-gray-400">۱.۲ میلیون دنبال‌کننده</p>
+                                    </div>
+                                </div>
+                                <div class="flex flex-wrap gap-2">
+                                    <span id="videoViews" class="inline-flex items-center bg-primary-100/50 dark:bg-primary-900/30 text-primary-800 dark:text-primary-300 px-3 py-1 rounded-full text-sm">
+                                        <i class="ph ph-eye mr-1"></i>
+                                        ۱.۵ میلیون بازدید
+                                    </span>
+                                    <span id="videoDate" class="inline-flex items-center bg-secondary-100/50 dark:bg-secondary-900/30 text-secondary-800 dark:text-secondary-300 px-3 py-1 rounded-full text-sm">
+                                        <i class="ph ph-calendar mr-1"></i>
+                                        ۱۴۰۲/۰۳/۱۵
+                                    </span>
+                                    <span id="videoQuality" class="inline-flex items-center bg-accent-100/50 dark:bg-accent-900/30 text-accent-800 dark:text-accent-300 px-3 py-1 rounded-full text-sm">
+                                        <i class="ph ph-high-definition mr-1"></i>
+                                        1080p
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="md:w-3/5">
+                            <h3 id="videoTitle" class="text-2xl font-bold mb-4">عنوان ویدیو</h3>
+                            <div class="mb-6">
+                                <div class="flex justify-between items-center mb-2">
+                                    <h4 class="font-medium text-lg">توضیحات</h4>
+                                    <button id="toggleDescription" class="text-primary-600 dark:text-primary-400 text-sm focus:outline-none hover:underline">
+                                        نمایش بیشتر
+                                    </button>
+                                </div>
+                                <div class="bg-white/10 dark:bg-dark-800/30 p-4 rounded-xl backdrop-blur-sm">
+                                    <p id="videoDescription" class="text-gray-600 dark:text-gray-400 max-h-20 overflow-hidden">
+                                        توضیحات ویدیو در اینجا نمایش داده می‌شود. برای مشاهده کامل توضیحات روی دکمه نمایش بیشتر کلیک کنید...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="mb-6">
+                                <div class="flex border-b border-gray-200 dark:border-gray-700 mb-4">
+                                    <button class="format-tab active py-3 px-6 focus:outline-none" data-target="video-panel">
+                                        <i class="ph ph-video text-lg mr-1"></i>
+                                        ویدیو
+                                    </button>
+                                    <button class="format-tab py-3 px-6 focus:outline-none" data-target="audio-panel">
+                                        <i class="ph ph-music-notes text-lg mr-1"></i>
+                                        صدا
+                                    </button>
+                                    <button class="format-tab py-3 px-6 focus:outline-none" data-target="advanced-panel">
+                                        <i class="ph ph-gear-six text-lg mr-1"></i>
+                                        پیشرفته
+                                    </button>
+                                </div>
+                                <div id="video-panel" class="format-panel active">
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                        <div class="format-card bg-white/20 dark:bg-dark-800/40 rounded-xl p-4 hover:shadow-lg cursor-pointer group">
+                                            <div class="flex justify-between items-center mb-3">
+                                                <div class="flex items-center">
+                                                    <div class="w-12 h-12 gradient-primary rounded-lg flex items-center justify-center text-white mr-3">
+                                                        <i class="ph ph-video-camera text-xl"></i>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="font-bold text-lg">MP4 4K Ultra HD</h5>
+                                                        <p class="text-xs text-gray-500 dark:text-gray-400">2160p • 30fps</p>
+                                                    </div>
+                                                </div>
+                                                <span class="bg-white/30 dark:bg-dark-700/50 px-3 py-2 rounded-lg text-sm font-medium">3.2 GB</span>
+                                            </div>
+                                            <button class="download-btn magical w-full opacity-0 group-hover:opacity-100 transition-opacity">
+                                                <i class="ph ph-download-simple mr-2"></i>
+                                                دانلود
+                                            </button>
+                                        </div>
+                                        <div class="format-card bg-white/20 dark:bg-dark-800/40 rounded-xl p-4 hover:shadow-lg cursor-pointer group">
+                                            <div class="flex justify-between items-center mb-3">
+                                                <div class="flex items-center">
+                                                    <div class="w-12 h-12 gradient-primary rounded-lg flex items-center justify-center text-white mr-3">
+                                                        <i class="ph ph-video-camera text-xl"></i>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="font-bold text-lg">MP4 Full HD</h5>
+                                                        <p class="text-xs text-gray-500 dark:text-gray-400">1080p • 60fps</p>
+                                                    </div>
+                                                </div>
+                                                <span class="bg-white/30 dark:bg-dark-700/50 px-3 py-2 rounded-lg text-sm font-medium">1.2 GB</span>
+                                            </div>
+                                            <button class="download-btn magical w-full opacity-0 group-hover:opacity-100 transition-opacity">
+                                                <i class="ph ph-download-simple mr-2"></i>
+                                                دانلود
+                                            </button>
+                                        </div>
+                                        <div class="format-card bg-white/20 dark:bg-dark-800/40 rounded-xl p-4 hover:shadow-lg cursor-pointer group">
+                                            <div class="flex justify-between items-center mb-3">
+                                                <div class="flex items-center">
+                                                    <div class="w-12 h-12 gradient-primary rounded-lg flex items-center justify-center text-white mr-3 opacity-80">
+                                                        <i class="ph ph-video-camera text-xl"></i>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="font-bold text-lg">MP4 HD</h5>
+                                                        <p class="text-xs text-gray-500 dark:text-gray-400">720p • 30fps</p>
+                                                    </div>
+                                                </div>
+                                                <span class="bg-white/30 dark:bg-dark-700/50 px-3 py-2 rounded-lg text-sm font-medium">720 MB</span>
+                                            </div>
+                                            <button class="download-btn magical w-full opacity-0 group-hover:opacity-100 transition-opacity">
+                                                <i class="ph ph-download-simple mr-2"></i>
+                                                دانلود
+                                            </button>
+                                        </div>
+                                        <div class="format-card bg-white/20 dark:bg-dark-800/40 rounded-xl p-4 hover:shadow-lg cursor-pointer group">
+                                            <div class="flex justify-between items-center mb-3">
+                                                <div class="flex items-center">
+                                                    <div class="w-12 h-12 gradient-primary rounded-lg flex items-center justify-center text-white mr-3 opacity-60">
+                                                        <i class="ph ph-video-camera text-xl"></i>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="font-bold text-lg">MP4 SD</h5>
+                                                        <p class="text-xs text-gray-500 dark:text-gray-400">480p • 30fps</p>
+                                                    </div>
+                                                </div>
+                                                <span class="bg-white/30 dark:bg-dark-700/50 px-3 py-2 rounded-lg text-sm font-medium">350 MB</span>
+                                            </div>
+                                            <button class="download-btn magical w-full opacity-0 group-hover:opacity-100 transition-opacity">
+                                                <i class="ph ph-download-simple mr-2"></i>
+                                                دانلود
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="audio-panel" class="format-panel">
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                        <div class="format-card bg-white/20 dark:bg-dark-800/40 rounded-xl p-4 hover:shadow-lg cursor-pointer group">
+                                            <div class="flex justify-between items-center mb-3">
+                                                <div class="flex items-center">
+                                                    <div class="w-12 h-12 gradient-secondary rounded-lg flex items-center justify-center text-white mr-3">
+                                                        <i class="ph ph-music-notes text-xl"></i>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="font-bold text-lg">MP3 High Quality</h5>
+                                                        <p class="text-xs text-gray-500 dark:text-gray-400">320 kbps</p>
+                                                    </div>
+                                                </div>
+                                                <span class="bg-white/30 dark:bg-dark-700/50 px-3 py-2 rounded-lg text-sm font-medium">45 MB</span>
+                                            </div>
+                                            <button class="download-btn magical w-full opacity-0 group-hover:opacity-100 transition-opacity">
+                                                <i class="ph ph-download-simple mr-2"></i>
+                                                دانلود
+                                            </button>
+                                        </div>
+                                        <div class="format-card bg-white/20 dark:bg-dark-800/40 rounded-xl p-4 hover:shadow-lg cursor-pointer group">
+                                            <div class="flex justify-between items-center mb-3">
+                                                <div class="flex items-center">
+                                                    <div class="w-12 h-12 gradient-secondary rounded-lg flex items-center justify-center text-white mr-3 opacity-80">
+                                                        <i class="ph ph-music-notes text-xl"></i>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="font-bold text-lg">MP3 Medium Quality</h5>
+                                                        <p class="text-xs text-gray-500 dark:text-gray-400">256 kbps</p>
+                                                    </div>
+                                                </div>
+                                                <span class="bg-white/30 dark:bg-dark-700/50 px-3 py-2 rounded-lg text-sm font-medium">30 MB</span>
+                                            </div>
+                                            <button class="download-btn magical w-full opacity-0 group-hover:opacity-100 transition-opacity">
+                                                <i class="ph ph-download-simple mr-2"></i>
+                                                دانلود
+                                            </button>
+                                        </div>
+                                        <div class="format-card bg-white/20 dark:bg-dark-800/40 rounded-xl p-4 hover:shadow-lg cursor-pointer group">
+                                            <div class="flex justify-between items-center mb-3">
+                                                <div class="flex items-center">
+                                                    <div class="w-12 h-12 gradient-secondary rounded-lg flex items-center justify-center text-white mr-3 opacity-60">
+                                                        <i class="ph ph-music-notes text-xl"></i>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="font-bold text-lg">MP3 Standard</h5>
+                                                        <p class="text-xs text-gray-500 dark:text-gray-400">128 kbps</p>
+                                                    </div>
+                                                </div>
+                                                <span class="bg-white/30 dark:bg-dark-700/50 px-3 py-2 rounded-lg text-sm font-medium">15 MB</span>
+                                            </div>
+                                            <button class="download-btn magical w-full opacity-0 group-hover:opacity-100 transition-opacity">
+                                                <i class="ph ph-download-simple mr-2"></i>
+                                                دانلود
+                                            </button>
+                                        </div>
+                                        <div class="format-card bg-white/20 dark:bg-dark-800/40 rounded-xl p-4 hover:shadow-lg cursor-pointer group">
+                                            <div class="flex justify-between items-center mb-3">
+                                                <div class="flex items-center">
+                                                    <div class="w-12 h-12 gradient-accent rounded-lg flex items-center justify-center text-white mr-3">
+                                                        <i class="ph ph-music-notes text-xl"></i>
+                                                    </div>
+                                                    <div>
+                                                        <h5 class="font-bold text-lg">M4A Audio</h5>
+                                                        <p class="text-xs text-gray-500 dark:text-gray-400">High Quality</p>
+                                                    </div>
+                                                </div>
+                                                <span class="bg-white/30 dark:bg-dark-700/50 px-3 py-2 rounded-lg text-sm font-medium">40 MB</span>
+                                            </div>
+                                            <button class="download-btn magical w-full opacity-0 group-hover:opacity-100 transition-opacity">
+                                                <i class="ph ph-download-simple mr-2"></i>
+                                                دانلود
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="advanced-panel" class="format-panel">
+                                    <div class="grid grid-cols-1 gap-4">
+                                        <div class="format-card bg-white/20 dark:bg-dark-800/40 rounded-xl p-5 hover:shadow-lg cursor-pointer">
+                                            <div class="flex items-center">
+                                                <div class="w-12 h-12 gradient-accent rounded-lg flex items-center justify-center text-white mr-4">
+                                                    <i class="ph ph-closed-captioning text-2xl"></i>
+                                                </div>
+                                                <div class="flex-grow">
+                                                    <h5 class="font-bold text-lg">دانلود زیرنویس</h5>
+                                                    <p class="text-sm text-gray-500 dark:text-gray-400">دانلود فایل زیرنویس به فرمت‌های SRT، VTT و غیره</p>
+                                                </div>
+                                                <i class="ph ph-caret-left text-xl"></i>
+                                            </div>
+                                        </div>
+                                        <div class="format-card bg-white/20 dark:bg-dark-800/40 rounded-xl p-5 hover:shadow-lg cursor-pointer">
+                                            <div class="flex items-center">
+                                                <div class="w-12 h-12 gradient-info rounded-lg flex items-center justify-center text-white mr-4">
+                                                    <i class="ph ph-image text-2xl"></i>
+                                                </div>
+                                                <div class="flex-grow">
+                                                    <h5 class="font-bold text-lg">دانلود تصویر بندانگشتی</h5>
+                                                    <p class="text-sm text-gray-500 dark:text-gray-400">دانلود تصویر بندانگشتی ویدیو با کیفیت بالا</p>
+                                                </div>
+                                                <i class="ph ph-caret-left text-xl"></i>
+                                            </div>
+                                        </div>
+                                        <div class="format-card bg-white/20 dark:bg-dark-800/40 rounded-xl p-5 hover:shadow-lg cursor-pointer">
+                                            <div class="flex items-center">
+                                                <div class="w-12 h-12 gradient-success rounded-lg flex items-center justify-center text-white mr-4">
+                                                    <i class="ph ph-list-bullets text-2xl"></i>
+                                                </div>
+                                                <div class="flex-grow">
+                                                    <h5 class="font-bold text-lg">گزینه‌های پیشرفته</h5>
+                                                    <p class="text-sm text-gray-500 dark:text-gray-400">تنظیمات بیشتر برای دانلود (کدک، نرخ بیت و غیره)</p>
+                                                </div>
+                                                <i class="ph ph-caret-left text-xl"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="downloadProgress" class="hidden mb-16">
+                <div class="glassmorphism rounded-3xl shadow-2xl p-8 max-w-4xl mx-auto">
+                    <div class="flex flex-col sm:flex-row justify-between items-center mb-8">
+                        <div class="flex items-center mb-4 sm:mb-0">
+                            <div class="w-12 h-12 gradient-cool rounded-xl flex items-center justify-center text-white mr-3 shadow-neon">
+                                <i class="ph ph-cloud-arrow-down text-2xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold">در حال دانلود...</h3>
+                        </div>
+                        <div id="downloadStatus" class="gradient-cool text-white px-5 py-2 rounded-full font-bold flex items-center">
+                            <div class="equalizer text-white mr-2">
+                                <div class="equalizer-bar"></div>
+                                <div class="equalizer-bar"></div>
+                                <div class="equalizer-bar"></div>
+                                <div class="equalizer-bar"></div>
+                                <div class="equalizer-bar"></div>
+                            </div>
+                            <span>در حال دانلود</span>
+                        </div>
+                    </div>
+                    <div class="bg-white/30 dark:bg-dark-800/40 rounded-2xl p-6 mb-8 backdrop-blur-lg">
+                        <div class="flex flex-col sm:flex-row items-center mb-5">
+                            <div class="relative w-full sm:w-48 h-32 rounded-xl overflow-hidden flex-shrink-0 ml-0 sm:ml-5 mb-4 sm:mb-0 shadow-lg">
+                                <img id="downloadThumbnail" src="https://i.imgur.com/JpkuIu9.png" alt="در حال دانلود" class="w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                                <div class="absolute bottom-2 right-2 bg-black/70 text-white px-2 py-1 text-xs rounded-md backdrop-blur-sm">
+                                    <span id="downloadFileType">MP4 1080p</span>
+                                </div>
+                            </div>
+                            <div class="flex-grow text-center sm:text-right">
+                                <h4 id="downloadFileName" class="font-bold text-xl mb-2 line-clamp-2">عنوان ویدیو - 1080p.mp4</h4>
+                                <div class="flex flex-wrap items-center justify-center sm:justify-start gap-3 mb-2">
+                                    <span id="downloadSize" class="inline-flex items-center bg-primary-100/50 dark:bg-primary-900/30 text-primary-800 dark:text-primary-300 px-3 py-1 rounded-full text-sm">
+                                        <i class="ph ph-hard-drive text-lg mr-1"></i>
+                                        ۱۲۰ مگابایت
+                                    </span>
+                                    <span id="downloadQuality" class="inline-flex items-center bg-secondary-100/50 dark:bg-secondary-900/30 text-secondary-800 dark:text-secondary-300 px-3 py-1 rounded-full text-sm">
+                                        <i class="ph ph-high-definition text-lg mr-1"></i>
+                                        1080p
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="text-center sm:text-right ml-0 sm:ml-5 mt-4 sm:mt-0">
+                                <div id="downloadPercent" class="text-4xl font-extrabold gradient-text gradient-cool">0%</div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <div class="progress-bar h-3">
+                                <div id="progressValue" class="progress-value" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap justify-between">
+                            <div class="flex items-center bg-white/30 dark:bg-dark-800/30 px-4 py-2 rounded-xl backdrop-blur-sm">
+                                <i class="ph ph-gauge text-primary-600 dark:text-primary-400 mr-2 text-lg"></i>
+                                <span id="downloadSpeed" class="font-medium">۰ مگابایت/ثانیه</span>
+                            </div>
+                            <div class="flex items-center bg-white/30 dark:bg-dark-800/30 px-4 py-2 rounded-xl backdrop-blur-sm">
+                                <i class="ph ph-hourglass text-secondary-600 dark:text-secondary-400 mr-2 text-lg"></i>
+                                <span id="downloadTimeLeft" class="font-medium">۰۰:۰۰:۰۰ مانده</span>
+                            </div>
+                            <div class="flex items-center bg-white/30 dark:bg-dark-800/30 px-4 py-2 rounded-xl backdrop-blur-sm">
+                                <i class="ph ph-check-circle text-success-600 dark:text-success-400 mr-2 text-lg"></i>
+                                <span id="downloadCompleted" class="font-medium">۰ مگابایت / ۱۲۰ مگابایت</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-4 justify-center">
+                        <button id="pauseDownload" class="btn-magical text-white font-bold py-3 px-6 rounded-xl shadow-lg">
+                            <span>
+                                <i class="ph ph-pause mr-2"></i>
+                                توقف موقت
+                            </span>
+                        </button>
+                        <button id="cancelDownload" class="gradient-text gradient-danger bg-white dark:bg-dark-800 border border-danger-500 font-bold py-3 px-6 rounded-xl transition-all btn-liquid shadow-lg">
+                            <i class="ph ph-x mr-2"></i>
+                            لغو دانلود
+                        </button>
+                    </div>
+                    <div id="downloadSuccess" class="hidden mt-10 animate-fadeIn">
+                        <div class="bg-white/30 dark:bg-dark-800/40 rounded-2xl p-8 text-center backdrop-blur-lg">
+                            <div class="w-24 h-24 gradient-success rounded-full mx-auto mb-6 flex items-center justify-center glow">
+                                <i class="ph ph-check-fat text-white text-4xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold mb-3">دانلود با موفقیت انجام شد!</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-8 text-lg">
+                                فایل شما با موفقیت دانلود شد و در پوشه دانلودها ذخیره شده است.
+                            </p>
+                            <div class="flex flex-wrap justify-center gap-4">
+                                <button class="btn-magical text-white font-bold py-3 px-6 rounded-xl shadow-lg">
+                                    <i class="ph ph-folder-open mr-2"></i>
+                                    باز کردن فایل
+                                </button>
+                                <button class="bg-gray-200 hover:bg-gray-300 dark:bg-dark-700 dark:hover:bg-dark-600 text-gray-800 dark:text-gray-200 font-bold py-3 px-6 rounded-xl transition-colors shadow-lg">
+                                    <i class="ph ph-download-simple mr-2"></i>
+                                    دانلود فایل دیگر
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="downloadError" class="hidden mt-10 animate-fadeIn">
+                        <div class="bg-white/30 dark:bg-dark-800/40 rounded-2xl p-8 text-center backdrop-blur-lg">
+                            <div class="w-24 h-24 gradient-danger rounded-full mx-auto mb-6 flex items-center justify-center glow">
+                                <i class="ph ph-warning text-white text-4xl"></i>
+                            </div>
+                            <h3 class="text-2xl font-bold mb-3">خطا در دانلود</h3>
+                            <p class="text-gray-600 dark:text-gray-400 mb-8 text-lg">
+                                متأسفانه در فرآیند دانلود خطایی رخ داده است. لطفاً دوباره تلاش کنید.
+                            </p>
+                            <div class="flex flex-wrap justify-center gap-4">
+                                <button class="btn-magical text-white font-bold py-3 px-6 rounded-xl shadow-lg">
+                                    <i class="ph ph-arrow-clockwise mr-2"></i>
+                                    تلاش مجدد
+                                </button>
+                                <button class="bg-gray-200 hover:bg-gray-300 dark:bg-dark-700 dark:hover:bg-dark-600 text-gray-800 dark:text-gray-200 font-bold py-3 px-6 rounded-xl transition-colors shadow-lg">
+                                    <i class="ph ph-bug mr-2"></i>
+                                    گزارش مشکل
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <div class="max-w-4xl mx-auto text-center mb-10">
+                    <h2 class="text-3xl font-bold mb-4">چگونه کار می‌کند؟</h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-400">در سه مرحله آسان ویدیوهای یوتیوب را دانلود کنید</p>
+                </div>
+                <div class="max-w-5xl mx-auto">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+                        <div class="hidden md:block absolute top-24 left-1/6 right-1/6 h-1 bg-gradient-to-r from-primary-500 via-secondary-500 to-accent-500 z-0"></div>
+                        <div class="bg-white/70 dark:bg-dark-800/70 p-8 rounded-3xl shadow-xl relative card-hover backdrop-blur-sm">
+                            <div class="absolute top-0 right-0 transform -translate-y-1/2 translate-x-1/2 z-10">
+                                <div class="w-12 h-12 gradient-primary rounded-full flex items-center justify-center text-white font-bold text-xl shadow-neon">
+                                    1
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="w-24 h-24 gradient-primary rounded-full mx-auto mb-5 flex items-center justify-center glow">
+                                    <i class="ph ph-youtube-logo text-white text-4xl"></i>
+                                </div>
+                                <h3 class="text-xl font-bold mb-3">لینک را کپی کنید</h3>
+                                <p class="text-gray-600 dark:text-gray-400">
+                                    لینک ویدیوی یوتیوب را از مرورگر یا اپلیکیشن کپی کنید
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-white/70 dark:bg-dark-800/70 p-8 rounded-3xl shadow-xl relative card-hover backdrop-blur-sm">
+                            <div class="absolute top-0 right-0 transform -translate-y-1/2 translate-x-1/2 z-10">
+                                <div class="w-12 h-12 gradient-secondary rounded-full flex items-center justify-center text-white font-bold text-xl shadow-neon-purple">
+                                    2
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="w-24 h-24 gradient-secondary rounded-full mx-auto mb-5 flex items-center justify-center glow">
+                                    <i class="ph ph-clipboard-text text-white text-4xl"></i>
+                                </div>
+                                <h3 class="text-xl font-bold mb-3">لینک را وارد کنید</h3>
+                                <p class="text-gray-600 dark:text-gray-400">
+                                    لینک را در فیلد ورودی قرار داده و دکمه دانلود را بزنید
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-white/70 dark:bg-dark-800/70 p-8 rounded-3xl shadow-xl relative card-hover backdrop-blur-sm">
+                            <div class="absolute top-0 right-0 transform -translate-y-1/2 translate-x-1/2 z-10">
+                                <div class="w-12 h-12 gradient-accent rounded-full flex items-center justify-center text-white font-bold text-xl shadow-neon-orange">
+                                    3
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="w-24 h-24 gradient-accent rounded-full mx-auto mb-5 flex items-center justify-center glow">
+                                    <i class="ph ph-download-simple text-white text-4xl"></i>
+                                </div>
+                                <h3 class="text-xl font-bold mb-3">فرمت را انتخاب کنید</h3>
+                                <p class="text-gray-600 dark:text-gray-400">
+                                    فرمت و کیفیت مورد نظر خود را انتخاب کرده و دانلود کنید
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mb-16">
+                <div class="max-w-4xl mx-auto text-center mb-10">
+                    <h2 class="text-3xl font-bold mb-4">سوالات متداول</h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-400">پاسخ سوالات رایج کاربران</p>
+                </div>
+                <div class="max-w-4xl mx-auto glassmorphism rounded-3xl shadow-xl p-8">
+                    <div class="accordion mb-6 border-b border-gray-200 dark:border-gray-700 pb-6">
+                        <div class="accordion-header flex items-center justify-between cursor-pointer">
+                            <h3 class="font-bold text-xl">چگونه می‌توانم ویدیوهای یوتیوب را دانلود کنم؟</h3>
+                            <div class="w-8 h-8 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center accordion-icon transition-transform">
+                                <i class="ph ph-caret-down text-primary-600 dark:text-primary-400"></i>
+                            </div>
+                        </div>
+                        <div class="accordion-content mt-4">
+                            <p class="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
+                                دانلود ویدیوهای یوتیوب بسیار ساده است. فقط کافی است لینک ویدیوی مورد نظر را از یوتیوب کپی کنید و در 
+                                فیلد ورودی بالای صفحه بچسبانید، سپس روی دکمه "دانلود" کلیک کنید. پس از آن، فرمت و کیفیت مورد نظر خود 
+                                را انتخاب کرده و دانلود را شروع کنید. فایل به صورت خودکار در پوشه دانلودهای مرورگر شما ذخیره می‌شود.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion mb-6 border-b border-gray-200 dark:border-gray-700 pb-6">
+                        <div class="accordion-header flex items-center justify-between cursor-pointer">
+                            <h3 class="font-bold text-xl">آیا این سرویس رایگان است؟</h3>
+                            <div class="w-8 h-8 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center accordion-icon transition-transform">
+                                <i class="ph ph-caret-down text-primary-600 dark:text-primary-400"></i>
+                            </div>
+                        </div>
+                        <div class="accordion-content mt-4">
+                            <p class="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
+                                بله! سرویس ما کاملاً رایگان است و می‌توانید از تمام امکانات آن بدون پرداخت هزینه استفاده کنید. ما هیچ محدودیتی 
+                                برای تعداد دانلودها، کیفیت ویدیو یا حجم فایل‌ها قرار نداده‌ایم. علاوه بر این، برای استفاده از سرویس ما نیازی به 
+                                ثبت‌نام یا ایجاد حساب کاربری نیست.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion mb-6 border-b border-gray-200 dark:border-gray-700 pb-6">
+                        <div class="accordion-header flex items-center justify-between cursor-pointer">
+                            <h3 class="font-bold text-xl">فرمت‌های قابل دانلود کدامند؟</h3>
+                            <div class="w-8 h-8 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center accordion-icon transition-transform">
+                                <i class="ph ph-caret-down text-primary-600 dark:text-primary-400"></i>
+                            </div>
+                        </div>
+                        <div class="accordion-content mt-4">
+                            <p class="text-gray-600 dark:text-gray-400 text-lg mb-4">
+                                سرویس ما طیف گسترده‌ای از فرمت‌ها را پشتیبانی می‌کند:
+                            </p>
+                            <ul class="list-disc list-inside mr-4 text-gray-600 dark:text-gray-400 text-lg mb-4 space-y-2">
+                                <li>برای ویدیو: MP4، WebM، AVI و MOV</li>
+                                <li>برای صدا: MP3، M4A، OGG و WAV</li>
+                            </ul>
+                            <p class="text-gray-600 dark:text-gray-400 text-lg">
+                                همچنین می‌توانید ویدیوها را با کیفیت‌های مختلف از 360p تا 4K (در صورت موجود بودن) دانلود کنید.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion mb-6 border-b border-gray-200 dark:border-gray-700 pb-6">
+                        <div class="accordion-header flex items-center justify-between cursor-pointer">
+                            <h3 class="font-bold text-xl">آیا می‌توانم فقط صدای یک ویدیو را دانلود کنم؟</h3>
+                            <div class="w-8 h-8 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center accordion-icon transition-transform">
+                                <i class="ph ph-caret-down text-primary-600 dark:text-primary-400"></i>
+                            </div>
+                        </div>
+                        <div class="accordion-content mt-4">
+                            <p class="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
+                                بله! شما می‌توانید فقط صدای یک ویدیو را در فرمت‌های مختلف صوتی مانند MP3، M4A، OGG یا WAV دانلود کنید. پس از 
+                                وارد کردن لینک ویدیو، در بخش "دانلود صدا" می‌توانید فرمت و کیفیت صدای مورد نظر خود را انتخاب کنید. این گزینه 
+                                برای دانلود موسیقی، پادکست یا هر محتوای صوتی دیگر از یوتیوب بسیار مناسب است.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-header flex items-center justify-between cursor-pointer">
+                            <h3 class="font-bold text-xl">آیا استفاده از این سرویس قانونی است؟</h3>
+                            <div class="w-8 h-8 rounded-full bg-primary-100 dark:bg-primary-900/30 flex items-center justify-center accordion-icon transition-transform">
+                                <i class="ph ph-caret-down text-primary-600 dark:text-primary-400"></i>
+                            </div>
+                        </div>
+                        <div class="accordion-content mt-4">
+                            <p class="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
+                                سرویس ما یک ابزار فنی برای دانلود محتوا از یوتیوب است. استفاده از این سرویس برای دانلود ویدیوهای عمومی برای استفاده شخصی 
+                                در اکثر کشورها مشکلی ندارد. با این حال، توجه داشته باشید که دانلود محتوای دارای حق نشر بدون اجازه صاحب اثر ممکن است نقض 
+                                قوانین کپی‌رایت باشد. ما توصیه می‌کنیم که محتوای دانلود شده را تنها برای استفاده شخصی نگه دارید و از توزیع مجدد آن 
+                                خودداری کنید.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="text-center py-6 glassmorphism rounded-2xl mb-6">
+            <p class="text-gray-600 dark:text-gray-400 mb-1 text-lg">طراحی شده با 💙 توسط <span class="rainbow-text font-bold">Mezd</span> برای راحتی شما</p>
+            <p class="text-gray-500 dark:text-gray-500 text-sm">با کمک هوش مصنوعی MezdAi-v3xm</p>
+        </div>
+    </div>
+    <button id="backToTopBtn" class="fixed bottom-6 right-6 w-14 h-14 gradient-cool rounded-full shadow-xl flex items-center justify-center text-white text-xl opacity-0 hover:shadow-neon transition-all duration-300 z-50 btn-pulse">
+        <i class="ph ph-arrow-up"></i>
+    </button>
+    <script>
+        if(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches){document.documentElement.classList.add('dark')}
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',event=>{
+            if(event.matches){document.documentElement.classList.add('dark')}
+            else{document.documentElement.classList.remove('dark')}
+        });
+        function showNotification(title,message,type='info',duration=6000){
+            const container=document.getElementById('notificationContainer');
+            const titleEl=document.getElementById('notificationTitle');
+            const textEl=document.getElementById('notificationText');
+            const iconEl=container.querySelector('.notification-icon i');
+            titleEl.textContent=title;
+            textEl.textContent=message;
+            container.className='notification';
+            container.classList.add(type);
+            let icon='info';
+            switch(type){
+                case'success':icon='check-circle';break;
+                case'error':icon='warning';break;
+                case'warning':icon='warning-circle';break
+            }
+            iconEl.className=`ph ph-${icon} text-xl`;
+            gsap.to(container,{x:0,duration:.5,ease:"back.out(1.7)"});
+            setTimeout(()=>{hideNotification()},duration)
+        }
+        function hideNotification(){
+            const container=document.getElementById('notificationContainer');
+            gsap.to(container,{x:'150%',duration:.5,ease:"power2.in"})
+        }
+        function validateYouTubeURL(url){
+            const patterns=[
+                /^(https?:\/\/)?(www\.)?youtube\.com\/watch\?v=[\w-]+/,
+                /^(https?:\/\/)?(www\.)?youtu\.be\/[\w-]+/,
+                /^(https?:\/\/)?(www\.)?youtube\.com\/embed\/[\w-]+/,
+                /^(https?:\/\/)?(www\.)?youtube\.com\/shorts\/[\w-]+/
+            ];
+            return patterns.some(pattern=>pattern.test(url))
+        }
+        document.addEventListener('DOMContentLoaded',function(){
+            function initializeAnimations(){
+                gsap.from(".card-hover",{y:50,opacity:0,duration:.8,stagger:.15,ease:"power2.out",delay:.3});
+                gsap.to(".neon-border::before",{backgroundPosition:"200% 50%",duration:3,ease:"none",repeat:-1})
+            }
+            function addRippleEffect(element){
+                const ripple=document.createElement('div');
+                ripple.className='absolute inset-0 bg-white/20 rounded-full scale-0';
+                element.appendChild(ripple);
+                gsap.to(ripple,{scale:3,opacity:0,duration:.6,ease:"power1.out",onComplete:()=>{ripple.remove()}})
+            }
+            const themeToggle=document.getElementById('themeToggle');
+            themeToggle.addEventListener('click',()=>{
+                document.documentElement.classList.toggle('dark');
+                addRippleEffect(themeToggle)
+            });
+            const backToTopBtn=document.getElementById('backToTopBtn');
+            window.addEventListener('scroll',()=>{
+                if(window.scrollY>300){
+                    backToTopBtn.style.opacity='1';
+                    backToTopBtn.style.transform='translateY(0) scale(1)'
+                }else{
+                    backToTopBtn.style.opacity='0';
+                    backToTopBtn.style.transform='translateY(20px) scale(0.9)'
+                }
+            });
+            backToTopBtn.addEventListener('click',()=>{
+                gsap.to(backToTopBtn,{y:-10,duration:.2,yoyo:true,repeat:1,onComplete:()=>{
+                    window.scrollTo({top:0,behavior:'smooth'})
+                }})
+            });
+            const formatTabs=document.querySelectorAll('.format-tab');
+            formatTabs.forEach(tab=>{
+                tab.addEventListener('click',()=>{
+                    formatTabs.forEach(t=>t.classList.remove('active'));
+                    tab.classList.add('active');
+                    const panels=document.querySelectorAll('.format-panel');
+                    panels.forEach(panel=>panel.classList.remove('active'));
+                    const targetPanel=document.getElementById(tab.dataset.target);
+                    targetPanel.classList.add('active');
+                    gsap.fromTo(targetPanel,{opacity:0,y:10},{opacity:1,y:0,duration:.3,ease:"power2.out"})
+                })
+            });
+            const formatCards=document.querySelectorAll('.format-card');
+            formatCards.forEach(card=>{
+                card.addEventListener('click',()=>{
+                    formatCards.forEach(c=>c.classList.remove('selected'));
+                    card.classList.add('selected');
+                    const downloadBtn=card.querySelector('button');
+                    gsap.to(downloadBtn,{opacity:1,duration:.3})
+                })
+            });
+            const downloadForm=document.querySelector('#downloadForm');
+            const videoUrlInput=document.getElementById('videoUrl');
+            const pasteButton=document.getElementById('pasteButton');
+            const downloadButton=document.getElementById('downloadButton');
+            pasteButton.addEventListener('click',async()=>{
+                try{
+                    gsap.to(pasteButton,{scale:.95,duration:.1,yoyo:true,repeat:1});
+                    const text=await navigator.clipboard.readText();
+                    videoUrlInput.value=text;
+                    gsap.fromTo(videoUrlInput,{backgroundColor:'rgba(56, 189, 248, 0.2)'},{backgroundColor:'rgba(56, 189, 248, 0)',duration:1});
+                    showNotification('موفق','لینک با موفقیت چسبانده شد','success',3000)
+                }catch(err){
+                    showNotification('خطا','دسترسی به کلیپ‌بورد امکان‌پذیر نیست','error')
+                }
+            });
+            downloadForm.addEventListener('submit',(e)=>{
+                e.preventDefault();
+                const videoUrl=videoUrlInput.value.trim();
+                if(!videoUrl){
+                    showNotification('خطا','لطفاً یک لینک یوتیوب وارد کنید','error');
+                    videoUrlInput.classList.add('error-shake');
+                    setTimeout(()=>videoUrlInput.classList.remove('error-shake'),500);
+                    return
+                }
+                if(!validateYouTubeURL(videoUrl)){
+                    showNotification('لینک نامعتبر','لطفاً یک لینک معتبر یوتیوب وارد کنید. فرمت‌های معتبر:\n• youtube.com/watch?v=\n• youtu.be/\n• youtube.com/shorts/','error');
+                    videoUrlInput.classList.add('error-shake');
+                    setTimeout(()=>videoUrlInput.classList.remove('error-shake'),500);
+                    return
+                }
+                const loadingHTML=`<div class="flex items-center"><div class="loading-dots mr-2"><span></span><span></span><span></span></div>در حال بررسی...</div>`;
+                downloadButton.innerHTML=loadingHTML;
+                downloadButton.disabled=true;
+                gsap.to(downloadButton,{scale:.98,duration:.2,ease:"power1.out"});
+                showNotification('در حال پردازش','لینک در حال بررسی است، لطفاً صبر کنید...','info',2000);
+                setTimeout(()=>{
+                    gsap.to(downloadButton,{scale:1,duration:.2,ease:"power1.out"});
+                    downloadButton.innerHTML=`<i class="ph ph-download-simple mr-2"></i> دانلود`;
+                    downloadButton.disabled=false;
+                    const videoInfo=document.getElementById('videoInfo');
+                    videoInfo.classList.remove('hidden');
+                    gsap.fromTo(videoInfo,{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:"power2.out"});
+                    videoInfo.scrollIntoView({behavior:'smooth',block:'start'});
+                    showNotification('موفق','اطلاعات ویدیو با موفقیت دریافت شد','success')
+                },2000)
+            });
+            const toggleDescription=document.getElementById('toggleDescription');
+            const videoDescription=document.getElementById('videoDescription');
+            toggleDescription?.addEventListener('click',()=>{
+                if(videoDescription.style.maxHeight==='20px'||videoDescription.style.maxHeight===''){
+                    gsap.to(videoDescription,{maxHeight:'1000px',duration:.5,ease:"power2.out"});
+                    toggleDescription.textContent='نمایش کمتر'
+                }else{
+                    gsap.to(videoDescription,{maxHeight:'20px',duration:.5,ease:"power2.out"});
+                    toggleDescription.textContent='نمایش بیشتر'
+                }
+            });
+            const downloadOptions=document.querySelectorAll('.download-btn');
+            downloadOptions.forEach(option=>{
+                option.addEventListener('click',()=>{
+                    gsap.to(option,{scale:.95,duration:.1,yoyo:true,repeat:1,ease:"power1.inOut"});
+                    const videoInfo=document.getElementById('videoInfo');
+                    gsap.to(videoInfo,{opacity:0,y:20,duration:.3,ease:"power2.in",onComplete:()=>{
+                        videoInfo.classList.add('hidden');
+                        const downloadProgress=document.getElementById('downloadProgress');
+                        downloadProgress.classList.remove('hidden');
+                        gsap.fromTo(downloadProgress,{opacity:0,y:30},{opacity:1,y:0,duration:.5,ease:"power2.out"});
+                        downloadProgress.scrollIntoView({behavior:'smooth',block:'start'});
+                        simulateDownloadProgress()
+                    }})
+                })
+            });
+            function simulateDownloadProgress(){
+                const progressValue=document.getElementById('progressValue');
+                const downloadPercent=document.getElementById('downloadPercent');
+                const downloadSpeed=document.getElementById('downloadSpeed');
+                const downloadTimeLeft=document.getElementById('downloadTimeLeft');
+                const downloadCompleted=document.getElementById('downloadCompleted');
+                let progress=0;
+                const totalSize=120;
+                const downloadSuccessElement=document.getElementById('downloadSuccess');
+                const downloadStatusElement=document.getElementById('downloadStatus');
+                showNotification('شروع دانلود','دانلود فایل شروع شد','info',3000);
+                const interval=setInterval(()=>{
+                    progress+=Math.random()*3+1;
+                    if(progress>100){
+                        progress=100;
+                        clearInterval(interval);
+                        gsap.to(downloadStatusElement,{backgroundColor:'#0db885',duration:.5,ease:"power1.out"});
+                        downloadStatusElement.innerHTML=`<i class="ph ph-check-circle mr-2"></i> تکمیل شده`;
+                        downloadStatusElement.classList.remove('gradient-cool');
+                        downloadStatusElement.classList.add('gradient-success');
+                        downloadSuccessElement.classList.remove('hidden');
+                        gsap.fromTo(downloadSuccessElement,{opacity:0,y:20},{opacity:1,y:0,duration:.5,ease:"back.out(1.7)"});
+                        showNotification('دانلود کامل','فایل با موفقیت دانلود شد!','success');
+                        return
+                    }
+                    gsap.to(progressValue,{width:`${Math.min(progress,100)}%`,duration:.3,ease:"power1.out"});
+                    downloadPercent.textContent=`${Math.floor(progress)}%`;
+                    const downloadedSize=Math.round((progress/100)*totalSize);
+                    const speed=Math.random()*3+2;
+                    const timeLeft=Math.round((totalSize-downloadedSize)/speed);
+                    const minutes=Math.floor(timeLeft/60);
+                    const seconds=timeLeft%60;
+                    const timeFormatted=`${String(minutes).padStart(2,'0')}:${String(seconds).padStart(2,'0')}`;
+                    downloadSpeed.textContent=`${speed.toFixed(1)} مگابایت/ثانیه`;
+                    downloadTimeLeft.textContent=`${timeFormatted} مانده`;
+                    downloadCompleted.textContent=`${downloadedSize} مگابایت / ${totalSize} مگابایت`
+                },500);
+                const pauseButton=document.getElementById('pauseDownload');
+                let isPaused=false;
+                let savedProgress=0;
+                let savedInterval=null;
+                pauseButton.addEventListener('click',()=>{
+                    gsap.to(pauseButton,{scale:.95,duration:.1,yoyo:true,repeat:1});
+                    if(!isPaused){
+                        clearInterval(interval);
+                        savedProgress=progress;
+                        pauseButton.innerHTML=`<span><i class="ph ph-play mr-2"></i> ادامه دانلود</span>`;
+                        downloadSpeed.textContent='۰ مگابایت/ثانیه';
+                        isPaused=true;
+                        downloadStatusElement.innerHTML=`<i class="ph ph-pause mr-2"></i> متوقف شده`;
+                        showNotification('توقف دانلود','دانلود متوقف شد','warning')
+                    }else{
+                        progress=savedProgress;
+                        savedInterval=setInterval(()=>{
+                            progress+=Math.random()*3+1;
+                            if(progress>100){
+                                progress=100;
+                                clearInterval(savedInterval);
+                                downloadStatusElement.innerHTML=`<i class="ph ph-check-circle mr-2"></i> تکمیل شده`;
+                                downloadSuccessElement.classList.remove('hidden');
+                                gsap.fromTo(downloadSuccessElement,{opacity:0,y:20},{opacity:1,y:0,duration:.5,ease:"back.out(1.7)"});
+                                showNotification('دانلود کامل','فایل با موفقیت دانلود شد!','success');
+                                return
+                            }
+                            gsap.to(progressValue,{width:`${Math.min(progress,100)}%`,duration:.3,ease:"power1.out"});
+                            downloadPercent.textContent=`${Math.floor(progress)}%`;
+                            const downloadedSize=Math.round((progress/100)*totalSize);
+                            const speed=Math.random()*3+2;
+                            const timeLeft=Math.round((totalSize-downloadedSize)/speed);
+                            const minutes=Math.floor(timeLeft/60);
+                            const seconds=timeLeft%60;
+                            const timeFormatted=`${String(minutes).padStart(2,'0')}:${String(seconds).padStart(2,'0')}`;
+                            downloadSpeed.textContent=`${speed.toFixed(1)} مگابایت/ثانیه`;
+                            downloadTimeLeft.textContent=`${timeFormatted} مانده`;
+                            downloadCompleted.textContent=`${downloadedSize} مگابایت / ${totalSize} مگابایت`
+                        },500);
+                        pauseButton.innerHTML=`<span><i class="ph ph-pause mr-2"></i> توقف موقت</span>`;
+                        isPaused=false;
+                        downloadStatusElement.innerHTML=`<div class="equalizer text-white mr-2"><div class="equalizer-bar"></div><div class="equalizer-bar"></div><div class="equalizer-bar"></div><div class="equalizer-bar"></div><div class="equalizer-bar"></div></div><span>در حال دانلود</span>`;
+                        showNotification('ادامه دانلود','دانلود ادامه یافت','info')
+                    }
+                });
+                const cancelButton=document.getElementById('cancelDownload');
+                const downloadErrorElement=document.getElementById('downloadError');
+                cancelButton.addEventListener('click',()=>{
+                    gsap.to(cancelButton,{scale:.95,duration:.1,yoyo:true,repeat:1});
+                    clearInterval(interval);
+                    clearInterval(savedInterval);
+                    downloadStatusElement.innerHTML=`<i class="ph ph-x-circle mr-2"></i> لغو شده`;
+                    if(downloadSuccessElement.classList.contains('hidden')===false){
+                        gsap.to(downloadSuccessElement,{opacity:0,y:20,duration:.3,onComplete:()=>{
+                            downloadSuccessElement.classList.add('hidden')
+                        }})
+                    }
+                    downloadErrorElement.classList.remove('hidden');
+                    gsap.fromTo(downloadErrorElement,{opacity:0,y:20},{opacity:1,y:0,duration:.5,ease:"back.out(1.7)"});
+                    showNotification('لغو دانلود','دانلود توسط کاربر لغو شد','error')
+                })
+            }
+            const accordionHeaders=document.querySelectorAll('.accordion-header');
+            accordionHeaders.forEach(header=>{
+                header.addEventListener('click',()=>{
+                    const accordion=header.parentElement;
+                    const icon=header.querySelector('.accordion-icon');
+                    accordion.classList.toggle('accordion-active');
+                    if(accordion.classList.contains('accordion-active')){
+                        gsap.to(icon,{rotation:180,duration:.4,ease:"back.out(1.7)"})
+                    }else{
+                        gsap.to(icon,{rotation:0,duration:.4,ease:"back.out(1.7)"})
+                    }
+                })
+            });
+            initializeAnimations()
+        });
+    </script>
+</body>
+</html>
